@@ -1,0 +1,146 @@
+.beverage {
+    border: 1px solid #eee;
+    margin: 15px 0;
+    padding: 15px;
+}
+
+.beverage-count {
+    margin: 0 0 15px;
+    display: inline-block;
+}
+
+.field {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.label-text {
+    display: inline-block;
+    width: 80px;
+}
+
+.checkbox-label {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.checkbox-field {
+    margin: 5px 0;
+    display: block;
+}
+
+.add-button {
+    border: none;
+    background: none;
+    padding: 10px;
+    color: rgba(0, 27, 255, 0.82);
+    font-size: 14px;
+    text-decoration: underline dashed;
+    cursor: pointer;
+}
+
+.del-button {
+    display: inline-block;
+    border: none;
+    background: none;
+    float: right;
+    top: 5%;
+    left: 98%;
+    font-size: 1.5em;
+    color: rgba(0, 27, 255, 0.82);
+    cursor: pointer;
+}
+
+.submit-button {
+    font-size: 16px;
+    padding: 7px 15px;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+
+.overlay {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    z-index:100;
+    opacity: 0;
+    pointer-events: none;
+    justify-content:center;
+    align-items: center;
+}
+
+.modal {
+    width: 100%;
+    max-width: 500px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    box-shadow:0 3px 7px rgba(0,0,0,.25);
+    background-color: white;
+    padding: 10px;
+}
+
+.close-modal-button {
+    display: inline-block;
+    border: none;
+    background: none;
+    float: right;
+    margin: 1% 1% 0 0;
+    font-size: 1.1em;
+    color: rgba(0, 27, 255, 0.82);
+}
+
+.tableOrder {
+    border-collapse: collapse;
+}
+
+.tableOrder tr {
+    border-bottom: 1px solid lightgrey;
+}
+
+.tableOrder thead {
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+
+.tableOrder th {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.tableOrder td{
+    padding: 10px;
+    width: 21%;
+}
+
+.tableOrder td:last-child {
+    width: 35%;
+}
+
+.order-time {
+    margin-top: 10px;
+}
+
+input[type=time] {
+    margin-left: 5%;
+    font-size: 14px;
+    padding: 4px 10px;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+
+.order-submit {
+    margin: 5px;
+    float: right;
+    font-size: 16px;
+    padding: 7px 15px;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
